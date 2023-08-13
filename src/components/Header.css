@@ -1,0 +1,55 @@
+/* .box{
+	border: 2px solid #ddd;
+} */
+/* head img strt */
+
+#banner {
+	position: relative;
+	height: 460px;
+	overflow: hidden;
+}
+
+#banner img {
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+}
+
+.overlay {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	color: #fff;
+}
+
+.overlay h1 {
+	font-size: 48px;
+	margin-bottom: 20px;
+}
+
+.overlay p {
+	font-size: 24px;
+	margin-bottom: 30px;
+	line-height: 1.5;
+}
+
+.button {
+	display: inline-block;
+	padding: 15px 30px;
+	font-size: 18px;
+	background-color: #f3ef37;
+	color: #fdfafa;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	text-decoration: none;
+	transition: background-color 0.3s;
+}
+
+.button:hover {
+	background-color: #0062cc;
+	color: white;
+}
+/* head img end */

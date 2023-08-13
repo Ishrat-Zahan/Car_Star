@@ -1,0 +1,67 @@
+.carousel-item{
+    height: 400px;
+    
+}
+.carousel-item img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 2px;
+}
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+#contact-us {
+	padding: 50px 0;
+}
+
+#contact-us h1 {
+    color: black;
+	font-size: 36px;
+	margin-bottom: 20px;
+    margin-bottom: 3px solid #f3ef37 !important ;
+}
+
+#contact-us p {
+	font-size: 18px;
+	margin-bottom: 20px;
+	line-height: 1.5;
+}
+#contact{
+    width: 100%;
+}
+form label {
+	display: block;
+	margin-bottom: 10px;
+	font-size: 18px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form textarea {
+	padding: 10px;
+	margin-bottom: 20px;
+	font-size: 18px;
+	border: 2px solid #ccc;
+	border-radius: 5px;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+form textarea {
+	resize: vertical;
+}
+
+/* form button[type="submit"] {
+	padding: 10px;
+	font-size: 18px;
+	background-color: #f3ef37;
+	color: #060505;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+} */
